@@ -35,17 +35,15 @@ I'm a powerful group management bot 🤖
 👉Add me to your groups as admin to manage your groups with my commands🤩
 
 You can find my list of available commands with /help .
- 
-See [Basic Configuration Checklist](t.me/Anienews/3) on how to secure your group.
 
-[#include <std/disclaimer.h>](https://telegra.ph/Anie-Robot-05-27)
+[#include <std/disclaimer.h>](https://t.me/Jimi_Bots/16)
 
 
 """
 
 HELP_STRINGS = """
 
-Hello! my name *{}*.
+Hello! 😊 My name is *{}*.
 
 *Main* commands available:
  - /start: start the bot
@@ -152,9 +150,9 @@ def start(bot: Bot, update: Update, args: List[str]):
     
             keyboard = [[InlineKeyboardButton(text=tld(chat.id, "Add Me To Your Group ♥️"), url="t.me/AnieRobot?startgroup=true")]]
 
-            keyboard += [[InlineKeyboardButton(text=tld(chat.id, "🌍 Join Our Support Chat 🌍"), url="https://t.me/AnieSupport")]]
+            keyboard += [[InlineKeyboardButton(text=tld(chat.id, "🌍 Join Our Support Chat 🌍"), url="https://t.me/jimibots_grp")]]
 
-            keyboard += [[InlineKeyboardButton(text=tld(chat.id, "Updates ❓"), url="https://t.me/AnieNews")]]
+            keyboard += [[InlineKeyboardButton(text=tld(chat.id, "Updates ❓"), url="https://t.me/Jimi_Bots")]]
             
             keyboard += [[InlineKeyboardButton(text="My Super Commands ⚙️", callback_data="help_back")]]
             
@@ -162,7 +160,7 @@ def start(bot: Bot, update: Update, args: List[str]):
 
 
     else:
-        update.effective_message.reply_text("Yes, What Happened?🤧 If You Need Help Type /help")
+        update.effective_message.reply_text("Yes, What Happened?🤔 If You Need Help Type /help")
 
 
 def send_start(bot, update):
