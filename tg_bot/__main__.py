@@ -148,7 +148,7 @@ def start(bot: Bot, update: Update, args: List[str]):
             chat = update.effective_chat  # type: Optional[Chat]
             text = PM_START_TEXT
     
-            keyboard = [[InlineKeyboardButton(text=tld(chat.id, "Add Me To Your Group ♥️"), url="t.me/AnieRobot?startgroup=true")]]
+            keyboard = [[InlineKeyboardButton(text=tld(chat.id, "Add Me To Your Group ♥️ Tap Me and Copy my Link then make me admin 😊"), url="http://t.me/Group_Manager_jimibot")]]
 
             keyboard += [[InlineKeyboardButton(text=tld(chat.id, "🌍 Join Our Support Chat 🌍"), url="https://t.me/jimibots_grp")]]
 
