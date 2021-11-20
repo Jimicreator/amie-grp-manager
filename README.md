@@ -15,7 +15,7 @@ The Support group can be reached out to at [Support](https://t.me/AnieSupport), 
 
 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https%3A%2F%2Fgithub.com%2FJimicreator%2Famie-grp-manager&template=https%3A%2F%2Fgithub.com%2FJimicreator%2FTelegraphbot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https%3A%2F%2Fgithub.com%2FJimicreator%2Famie grp manager&template=https%3A%2F%2Fgithub.com%2FJimicreator%2Famiegrpmanager)
 
 ### Configuration
 
